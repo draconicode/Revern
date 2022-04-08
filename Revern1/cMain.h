@@ -4,6 +4,11 @@ class cMain : public wxFrame
 {
 public:
 	cMain();
+	void OnExitClicked(wxCommandEvent& WXUNUSED);
 	~cMain();
+
+public:
+	wxMenuBar* menuBar;
+	wxMenu* menuFile;
 };
 
