@@ -18,11 +18,17 @@ public:
 	wxMenu* menuFile;
 	wxPanel* mainPanel;
 	wxBoxSizer* sizer;
+	wxFlexGridSizer* mainPanelSizer;
 	wxBoxSizer* currentSizer;
 	wxBoxSizer* resultSizer;
 	wxScrolledWindow* currentPanel;
 	wxScrolledWindow* resultPanel;
 	wxMenu* menuOpen;
 	wxFileDialog* fileDialog;
+	wxTextCtrl* replaceTextCtrl;
+	wxTextCtrl* replaceWithTextCtrl;
+
+	wxStaticText* replaceStaticText;
+	wxStaticText* replaceWithStaticText;
 };
 
